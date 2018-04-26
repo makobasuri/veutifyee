@@ -1,11 +1,13 @@
 <template>
+
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <HelloWorld/>
   </div>
 </template>
 
 <script>
+import 'vuetify/dist/vuetify.min.css'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
